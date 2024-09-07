@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+  <title>Checkout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body class="bg-light">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2">Checkout</a>
+      <form class="d-flex" role="search">
+        <nav class="navbar sticky-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-6 text-primary" href="#">Back to Store</a>
+            <button type="button" class="btn btn-primary rounded-pill">Sign in</button>
+          </div>
+        </nav>
+      </form>
+    </div>
+  </nav>
+  <div class="m-5 flex-row d-flex justify-content-around">
+    <div class="container-md bg-white shadow-sm border-ra rounded p-4">
+      <div class="row align-items-center">
+        <form>
+          <div class="col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+              class="bi bi-1-circle-fill text-primary" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z" />
+            </svg>
+            <label class="text-primary fs-3">Billing Address</label>
+          </div>
+          <div class="form-floating ">
+            <input type="email" class="form-control border rounded-3" id="Email" placeholder="First name" value="">
+            <label for="Email">Email </label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="Create-an-Account">
+            <label class="form-check-label">Create an Account</label>
+            <div>
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <label class="form-check-label"><input type="checkbox" class="form-check-input"
+                  id="Subscribe-to-Newsletter">Subscribe to Newsletter</label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked><label
+                class="form-check-label" for="flexCheckChecked"> My billing and sipping address are the same</label>
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="FristName" placeholder="First name" value="">
+                <label for="FristName">First name</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="Lastname" placeholder="Lastname">
+                <label for="Lastname">Last name</label>
+              </div>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="email" class="form-control" id="Address1" placeholder="name@example.com">
+              <label for="Address1">Street Address: Line 1</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="email" class="form-control" id="Address2" placeholder="name@example.com">
+              <label for="Address2">Street Address: Line 2</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="email" class="form-control" id="Address3" placeholder="name@example.com">
+              <label for="Address3">Street Address: Line 3</label>
+            </div>
+
+            <div class="col-md mb-2">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Country</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-md mb-2">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>State/Province*</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="row g-1">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="City" placeholder="First name" value="">
+                  <label for="City">City*</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="PostalCode" placeholder="PostalCode">
+                  <label for="PostalCode">Zip/Postal Code</label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-1">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="phonenumber" placeholder="PhoneNumber" value="">
+                  <label for="phonenumber">Phone Number*</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="VATnumber" placeholder="VATnumber">
+                  <label for="VATnumber">VAT Number</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-md">
+      <div class="container-md bg-white shadow-sm border-ra rounded p-4 mb-5">
+        <div class="row align-items-md-">
+          <form>
+            <div class="col-md">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                class="bi bi-2-circle-fill text-primary" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
+              </svg>
+              <label class="text-primary fs-3">Shipping Methods</label>
+              <div class="form-check position-relative">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1"><b>$0.00</b></label>
+                <label class="form-check-label position-absolute top-50 start-50 translate-middle"
+                  for="flexRadioDefault2">Table Rate</label>
+                <label class="form-check-label position-absolute top-50 end-0 translate-middle-y"
+                  for="flexRadioDefault2">Best Way</label>
+              </div>
+              <div class="form-check position-relative">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2"><b>$5.00</b></label>
+                <label class="form-check-label position-absolute top-50 start-50 translate-middle"
+                  for="flexRadioDefault2">Fixed</label>
+                <label class="form-check-label position-absolute top-50 end-0 translate-middle-y"
+                  for="flexRadioDefault2">Flat Rate</label>
+              </div>
+              <div class="row g-1">
+                <div class="col-md">
+                  <label class="fs-6">Delivery Date</label>
+                  <div class="form-floating">
+                    <input type="date" class="form-control" id="Calendar" value="">
+                    <label for="Calendar">Data</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <label class="fs-6">Delivery Time</label>
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="PC" placeholder="PC">
+                    <label for="PC">Zip/Postal Code</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <form class="container-md bg-white shadow-sm border-ra rounded p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+          class="bi bi-3-circle-fill text-primary" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z" />
+        </svg>
+        <label class="text-primary fs-3">Payment Methods</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="Money" value="option1" checked>
+          <label class="form-check-label" for="Money">
+            Check/Money Order
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="PO" id="PO" value="option2">
+          <label class="form-check-label" for="PO">
+            Purchase Order
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="Transfer" value="option1" checked>
+          <label class="form-check-label" for="Transfer">
+            Bank Transfer Payment
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Cash on Delivery
+          </label>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                Apply Discont Code
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <div class="input-group">
+                  <input type="email" class="form-control" id="EnterDiscontCode" placeholder="EnterDiscontCode">
+                  <label for="EnterDiscontCode"></label>
+                  <button class="btn btn-outline-secondary opacity-75 text-bg-secondary" type="button">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                ATTACHMENTS
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                GIFT OPTIONS
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container-md bg-white shadow-sm border-ra rounded p-4">
+      <form class="container-md bg-white shadow-sm border-ra rounded p-4"></form>
+      <div class="container-md">
+        <div class="row align-items-md-">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+              class="bi bi-4-circle-fill text-primary" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
+            </svg>
+            <label class="text-primary fs-3">Order Summary</label>
+            <div class="row g-1">
+              <div class="col-md mt-4">
+                <label class="fs-6"><b>Ship to </b><a class="text-primary">edit</a></label>
+                <div>
+                  <label class="fs-6">Matt T.</label>
+                  <label class="fs-6">Street</label>
+                  <label class="fs-6">Los Angeles, California 90064</label>
+                  <label class="fs-6">United States</label>
+                  <label class="fs-6"><a>555 55 555</a></label>
+                </div>
+              </div>
+              <div class="col-md mt-4">
+                <label class="fs-6"><b>Shipping Method</b></label>
+                <div>
+                  <label class="fs-6">Flate Rate - Fixed</label>
+                </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      1 ITEM IN CART
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body ">
+                      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR7dfTv2M6SQjsVGIKYEkJHNxW5GFhQVilxo3YS1jkeUt-bbsHa7JxouWjnI3dMtO_xtNwi37pzD3IcRAyvMrdQasEoL2pEjqdAGwhHODnfMvbJkyYHygJKWQ&usqp=CAc" class="rounded float-start" alt="..." >
+                      <div>
+                        <label class="fs-6 text-primary">Summit Watch</label>
+                        <label class="fs6 opacity-75">SKU:-24MGO3</label>
+                      </div>
+                  </div>
+                </div>
+            </div>
+              </div>
+            <div class="row g-1">
+              <div class="col-md mt-4">
+                <div>
+                  <label class="fs-6">Cart SubTotal </label>
+                </div>
+                <div>
+                  <label class="fs-6">Shipping</label>
+                  <label class="fs-6">Flate Rate - Fixed</label>
+                </div>
+              </div>
+              <div class="col-md mt-4">
+                <label class="fs-6">$54</label>
+                <div>
+                  <label class="fs-6">$5</label>
+                </div>
+              </div>
+              <div>
+              <label class="fs-5"><b>Order Total</b></label>
+              </div>
+              <div>
+                <label class="fs-5"><b>$59.00</b></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
+  </body>
+</html>
