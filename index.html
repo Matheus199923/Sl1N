@@ -1,1 +1,47 @@
-Olá mundo!
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 10</title>
+</head>
+<body>
+<h1>4- FERRAMENTAS TI UTILIZADAS NA BIBLIOTECA ANA BOVE</h1>
+<h2>4.1 sobre a biblioteca Ana Bove e sua instituição mantenedora</h2>
+<H3>4.1.1 O IMIP</H3>
+<H3>4.1.2 A biblioteca ana bove</H3>
+<h2>4.2 diagnostico tecnológico da biblioteca ana bove</h2>
+<h3>4.1.2 catálogo automático</h3>
+<h3>4.2.2 repositorio institucional</h3>
+<h3>4.2.3 portal e/ou base de dados de informação cientifica</h3>
+<h4>4.2.4 website (site)</h4>
+<h5>4.2.5 redes sociais</h5>
+<h6>4.2.6 outras ferramentas</h6>
+<br>
+<hr>
+<p> Vamos a um exemplo claro de <u>forma</u> <b>semâtica</b></p>
+<p>O professor Fabrício é um cara legal, ele nasceu<u>R. José Romério Duque, 185 - Mantena, MG, 35290-000</u> no hospital Evangélico, e ainda criança veio morar na <u> rua Santa Luzia, 323 – Serra, ES</u>
+<p>O professor Fabrício é um cara legal, ele nasceu<address> R. José Romério Duque, 185 -Mantena, MG, 35290-000 </address> no hospital Evangélico, e ainda criança veio morar na <address > rua Santa Luzia, 323 – Serra,ES<\ address >.</p>
+
+<pre><code>
+    def celsius_para_fahrenheit(celsius):
+    """
+    Converte a temperatura de Celsius para Fahrenheit.
+    
+    :param celsius: Temperatura em graus Celsius.
+    :return: Temperatura em graus Fahrenheit.
+    """
+    fahrenheit = celsius * 9/5 + 32
+    return fahrenheit
+
+# Solicita a entrada do usuário
+try:
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    fahrenheit = celsius_para_fahrenheit(celsius)
+    print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
+except ValueError:
+    print("Por favor, insira um número válido.")
+</pre></code>
+</body>
+</html>
